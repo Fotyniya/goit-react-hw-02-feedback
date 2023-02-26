@@ -1,5 +1,5 @@
 import { Section } from "./Section"
-import { Notification } from "./Notification "
+import { Notification } from "./Notification"
 
 export const Statistics = ({good,neutral,bad,total,positivePercentage}) => {
     return (total > 0) ? 
